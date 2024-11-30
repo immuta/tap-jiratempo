@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+      "self": {"type": "string"},
+      "key": {"type": ["null", "string"]},
+      "id": {"type": "integer"},
+      "name": {"type": ["null", "string"]},
+      "status": {"type": ["null", "string"]},
+      "global": {"type": ["null", "boolean"]},
+      "lead": {
+        "type": "object",
+        "self": {"type": ["null", "string"]},
+        "accountId": {"type": ["null", "string"]}
+      },
+      "category": {
+        "type": "object",
+        "self": {"type": ["null", "string"]},
+        "key": {"type": ["null", "string"]},
+        "id": {"type": ["null", "string"]},
+        "name": {"type": ["null", "string"]},
+        "'type'": {
+            "type": "object",
+            "name": {"type": ["null", "string"]}
+        }
+      },
+      "customer": {
+        "type": "object",
+        "self": {"type": ["null", "string"]},
+        "key": {"type": ["null", "string"]},
+        "id": {"type": ["null", "string"]},
+        "name": {"type": ["null", "string"]}
+      },
+      "links": {
+        "type": "object",
+        "self": {"type": ["null", "string"]}
+      }
+    }
+  }
+
