@@ -19,7 +19,6 @@ class TapJiraTempo(Tap):
             th.StringType,
             required=True,
             secret=True,  # Flag config as protected.
-            default = "Bearer uHjigKWHYjSV4idYNDGdpbOcYIpt06-us",
             title="Auth Token",
             description="The token to authenticate against the API service",
         ),
